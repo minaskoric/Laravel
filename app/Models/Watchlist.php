@@ -9,7 +9,7 @@ class Watchlist extends Model
 {
     use HasFactory;
 
-    public function posts() {
+    public function films() {
         return $this->hasMany(Film::class);
     }
 }
